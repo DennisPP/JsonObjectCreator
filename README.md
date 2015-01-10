@@ -78,6 +78,9 @@ MakePlacableInGenericArray(CommentObject)
 
 ```
 
+And the CommentObjectArray
+
+```
 @interface CommentObjectArray : NSObject
 @property (strong, nonatomic) NSNumber* count;
 @property (strong, nonatomic) NSMutableArray<CommentObject>* data;
